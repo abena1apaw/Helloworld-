@@ -1,10 +1,9 @@
 for i in range(1,101)
-print(i)
+if(i % 5 == 0; % 3 == 0)
+ print("FizzBuzz")
 if i % 3 == 0, 
-print("Fizz")
-else:
-print(i)
+  print("Fizz")
 elif(i % 5 == 0)
-print("Buzz")
-elif(i % 5 == 0; % 3 == 0)
-print("FizzBuzz")
+  print("Buzz")
+elif:
+  print(i)
