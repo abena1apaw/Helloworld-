@@ -1,0 +1,33 @@
+body {
+    height: 80%;
+    margin: 1.5;
+    width: 80%;
+background-color: aquamarine;
+background-image: url"C:\Users\akapa\OneDrive\Abena3\Volunteering\Main image.jpg";
+}
+     h1{
+        color:purple;
+        font:40px;
+        font-family:"Courier New",monospace;
+        text-align: center;
+}
+      p{ 
+        border: 1em solid black;
+      background-color: pink;
+        color:black;
+        font:18px;
+        font-family:"Arial";
+}
+     
+     img { 
+         display: block;
+         margin: auto;
+         text-align: center;
+}
+     h2{
+        color:purple;
+        font:20px
+        font-family:"Courier New";
+
+}
+    
