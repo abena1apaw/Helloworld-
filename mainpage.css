@@ -2,27 +2,45 @@ body {
     height: 80%;
     margin: 1.5;
     width: 80%;
+  float: center;
 background-color: aquamarine;
-background-image: url"C:\Users\akapa\OneDrive\Abena3\Volunteering\Main image.jpg";
+}
+   .content {
+     max-width: 800px;
+     margin: auto;
 }
      h1{
         color:purple;
-        font:40px;
+        font:48px;
         font-family:"Courier New",monospace;
         text-align: center;
+      background-image: url"
 }
       p{ 
         border: 1em solid black;
       background-color: pink;
         color:black;
         font:18px;
+     text-align: center;
         font-family:"Arial";
 }
-     
+   ul {
+       list-style-type: none;
+      display: inline-block;
+      margin: 0;
+      padding: 0;
+      width: 200px;
+      text-align: center;
+}   
+  table th, td {
+  padding: 15px;
+  text-align: left;
+}
+  
      img { 
          display: block;
          margin: auto;
-         text-align: center;
+         float: left;
 }
      h2{
         color:purple;
@@ -30,4 +48,27 @@ background-image: url"C:\Users\akapa\OneDrive\Abena3\Volunteering\Main image.jpg
         font-family:"Courier New";
 
 }
-    
+    div.gallery {
+ position:center;
+ margin: 5px;
+  border: 1px solid #ccc;
+  width: 250px;
+  text align: center;
+  display: inline-block;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+#container { width: 800px; margin: 0 auto;
+} 
