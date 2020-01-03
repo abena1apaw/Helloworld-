@@ -1,0 +1,74 @@
+body {
+    height: 80%;
+    margin: 1.5;
+    width: 80%;
+  text-align: center;
+ background-image: url("C:\Users\akapa\OneDrive\Abena3\Volunteering\boiling stones1.jpg");
+background-color: aquamarine;
+}
+
+   .content {
+     max-width: 800px;
+     margin: auto;
+}
+
+
+     h1{
+        color:purple;
+        font:40px;
+        font-family:"Courier New",monospace;
+        text-align: center; 
+}
+      p{ 
+        border: 1em solid black;
+      background-color: pink;
+        color:black;
+        font:18px;
+        font-family:"Arial";
+}
+   ul {
+       list-style-type: none;
+      display: inline-block;
+      margin: 0;
+      padding: 0;
+      width: 200px;
+      text-align: center;
+}   
+
+
+ li a {
+     display: block;
+     padding: 8px 16px;
+     color: Purple;
+	font:40px;
+        font-family:"Courier New",monospace;
+        text-align: center; 
+}
+
+  li  a:hover {
+       background-color: gray;
+       color: black;
+}
+     
+     img { 
+         display: block;
+         margin: auto;
+         text-align: center;
+}
+     h2{
+        color:purple;
+        font:20px
+        font-family:"Courier New";
+
+}
+    textarea {
+  width: 50%;
+  height: 100px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+
