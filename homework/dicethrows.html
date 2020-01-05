@@ -1,0 +1,64 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<title>ThrowDice</title>
+<script type ="text/javascript">
+var dice1;
+var dice2;
+var ans;
+var num;
+var Number;
+var i;
+function roll_dice()
+{
+var random_dice1=Math.floor(Math.random()*6);
+return random_dice1+1;
+}
+function rolling()
+{
+var combination=new Array();
+ans="";
+var display;
+display="";
+num=window.prompt("Enter how many times you want to throw the dice");
+for(i=0;i<12;i++)
+{
+combination[i]=0;
+}
+for(i=0;i<parseInt(num);i++)
+{
+dice1=roll_dice();
+dice2=roll_dice();
+ans=parseInt(dice1)+ parseInt(dice2);
+combination[ans-2]+=1;
+Number=i+1;
+display += "Roll #"+ Number + ": " + dice1 + " " + dice2 + "<br>";
+}
+div1.innerHTML=display;
+var ans1="";
+for(i=0;i<11;i++)
+{
+Number=i+2;
+ans1+="The Sum of "+ Number +" occurred :" + combination[i] +" Times<br>"
+}
+div2.innerHTML=ans1;
+}
+</script>
+</head>
+<body onload="rolling()">
+<h1> ThrowDice1</h1>
+<hr />
+
+<p>Press F5 or Refresh to load script again. This is a program for Rolling a Dice number of times as prompt by user</p>
+<form name = "multiply" action = "">
+<table>
+<caption>Throw Dice Program1</caption>
+<div id="div1">
+</div>
+<div id="div2"></div>
+</table>
+</form>
+</body>
+</html>
