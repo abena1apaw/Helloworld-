@@ -1,25 +1,26 @@
 body {
     height: 80%;
-    margin: 1.5;
+    margin:auto;
     width: 80%;
-  float: center;
-background-color: aquamarine;
+  float: unset;
+background-color: aliceblue;
 }
    .content {
      max-width: 800px;
      margin: auto;
 }
      h1{
-        color:purple;
-        font:48px;
+        color:darkblue;
+        font-size:48px;
+        font-weight:bold;
         font-family:"Courier New",monospace;
         text-align: center;
-      background-image: url"
+     
 }
       p{ 
-        border: 1em solid black;
-      background-color: pink;
-        color:black;
+      
+      
+        color: darkblue;
         font:18px;
      text-align: center;
         font-family:"Arial";

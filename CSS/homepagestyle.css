@@ -3,26 +3,45 @@ body {
     margin: 1.5;
     width: 80%;
   text-align: center;
- background-image: url("C:\Users\akapa\OneDrive\Abena3\Volunteering\boiling stones1.jpg");
-background-color: aquamarine;
+background-color: aliceblue;
 }
 
    .content {
      max-width: 800px;
      margin: auto;
 }
+/* The hero image */
+.hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: url(person-on-a-bridge-near-a-lake.jpg);
+    /* Set a specific height */
+    height: 50%;
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
 
-
+/* Place text in the middle of the image */
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+  
      h1{
-        color:purple;
-        font:40px;
+        color: white;
+        font-size:48px;
+        font-weight: bold;
         font-family:"Courier New",monospace;
         text-align: center; 
 }
       p{ 
-        border: 1em solid black;
-      background-color: pink;
-        color:black;
+        
+              color:darkblue;
         font:18px;
         font-family:"Arial";
 }
@@ -33,10 +52,21 @@ background-color: aquamarine;
       padding: 0;
       width: 200px;
       text-align: center;
-}   
+}
+/* Style the navbar */
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+}
 
-
- li a {
+    /* Navbar links */
+    #navbar a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px;
+       text-decoration: none;
      display: block;
      padding: 8px 16px;
      color: Purple;
