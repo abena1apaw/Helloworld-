@@ -1,1 +1,3 @@
-Finished Python. Html and Css are in progress.
+Finished Python. finished Html and Css.
+Started advanced CSS modules
+finished dice roll homeowrk
