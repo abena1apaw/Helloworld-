@@ -1,0 +1,62 @@
+﻿
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+
+
+body {
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+canvas {
+     height: 600px;
+    width: 600px;
+    border: 1px solid black;
+    border-radius: 5px;
+    position: relative;
+    margin: auto;
+}
+
+.info {
+    border: 1px solid black;
+    height: 30px;
+    width: 500px;
+    position: relative;
+    margin: auto;
+    top: 10px;
+}
+
+.board {
+    top: 20px;
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+    position: relative;
+    left: 50px;
+    display: inline-block;
+}
+
+.board_table {
+    border-spacing: 0px;
+}
+
+    .board_table .cell {
+        height: 8px;
+        width: 10px;
+    }
+
+    .board_table .snake_body {
+        border-radius: 2px;
+        background-color: black;
+    }
+
+    .board_table .food {
+        border-radius: 2px;
+        background-color: blue;
+    }
+}
