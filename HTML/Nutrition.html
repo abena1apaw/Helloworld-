@@ -10,7 +10,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="..\CSS\mainpage.css" />
+    <link rel="stylesheet" type="text/css" href="..\CSS\style.css" />
     <link rel="stylesheet" type="text/css" href="..\CSS\main.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -22,10 +22,10 @@
         <div class="row">
             <h1 class="col-sm-4">Nutrition</h1>
             <nav class="col-sm-8 text-right">
-                <p><a href="homepage.html">Home</a></p>
-                <p><a href="Exercise.html">Exercise</a></p>
-                <p><a href="Meditation.html">Meditation</a></p>
-                <p><a href="Working Through Stress.html">Working Through Stress</a></p>
+                <button> <p><a href="homepage.html">Home</a></p></button>
+                <button><p><a href="Exercise.html">Exercise</a></p></button>
+                <button><p><a href="Meditation.html">Meditation</a></p></button>
+                <button><p><a href="Working Through Stress.html">Working Through Stress</a></p></button>
             </nav>
         </div>
     </header>
@@ -121,13 +121,9 @@
 
 
     <div class="content">
-
-        <iframe width="800" height="500" src="https://www.youtube.com/embed/F94IY408Q4E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-    </div>
-
-
-
+        <div class="popup" onclick="myFunction()"><a href="https://www.youtube.com/embed/F94IY408Q4E">
+            Here are common myths about diets from dietitians.</a><span class="popuptext" id="myPopup"></span>
+  </div>
+</div>
 </body>
-
 </html>

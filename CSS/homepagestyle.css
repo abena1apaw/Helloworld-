@@ -85,6 +85,15 @@ background-color: aliceblue;
          margin: auto;
          text-align: center;
 }
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: darkgray;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}   
      h2{
         color:purple;
         font:20px
