@@ -31,13 +31,27 @@ body {
     transform: translate(-50%, -50%);
     color: white;
 }
-     h1{
+      h1 {
+    color: white;
+    font-size: 56px;
+    font-weight: bold;
+    font-family: "Courier New",monospace;
+    text-align: center;
+}
+     h2{
         color:darkblue;
         font-size:48px;
         font-weight:bold;
         font-family:"Courier New",monospace;
         text-align: center;
      
+}
+    h3 {
+    color: darkblue;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: "Courier New",monospace;
+    text-align: center;
 }
       p{ 
       
@@ -149,7 +163,7 @@ textarea {
   display: inline-block;
 }
 div.polaroid {
-    width: 80%;
+    width: 100%;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -176,5 +190,5 @@ div.desc {
   padding: 15px;
   text-align: center;
 }
-#container { width: 800px; margin: 0 auto;
+#container { width:800px; margin: 0 auto;
 }

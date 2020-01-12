@@ -1,6 +1,7 @@
 body {
-  font-family: 'Roboto', sans-serif;
+   font-family: 'Roboto', sans-serif;
   font-weight: 300;
+//background-image: url('boiling stones1.jpg');
 }
 
 header {
@@ -31,10 +32,9 @@ header p {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/jumbotron.jpg');
   background-size: cover;
   color: #ffffff;
-  height: 500px;
+  height: 200px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
@@ -56,6 +56,12 @@ section .row img {
 }
 
 .col-md-6 {
+  margin: 0 0 30px;
+}
+.col-md-4 {
+  margin: 0 0 30px;
+}
+.col-md-8 {
   margin: 0 0 30px;
 }
 

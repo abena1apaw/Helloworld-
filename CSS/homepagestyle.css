@@ -1,8 +1,9 @@
 body {
-    height: 80%;
-    margin: 1.5;
+   // height: 100%;
+    margin: auto;
     width: 80%;
   text-align: center;
+ float: unset;
 background-color: aliceblue;
 }
 
@@ -15,7 +16,7 @@ background-color: aliceblue;
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
     background-image: url(person-on-a-bridge-near-a-lake.jpg);
     /* Set a specific height */
-    height: 50%;
+    height: 20%;
     /* Position and center the image to scale nicely on all screens */
     background-position: center;
     background-repeat: no-repeat;
@@ -85,15 +86,6 @@ background-color: aliceblue;
          margin: auto;
          text-align: center;
 }
-.button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: darkgray;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-}   
      h2{
         color:purple;
         font:20px

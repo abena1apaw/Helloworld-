@@ -1,35 +1,13 @@
 body {
-    height: 80%;
-    margin: auto;
+    //height: 130%;
+    margin:auto;
     width: 80%;
-    text-align: center;
-    float: unset;
-    background-color: aliceblue;
+  float: unset;
+background-color: aliceblue;
 }
-.content {
-    max-width: 800px;
-    margin: auto;
-}
-/* The hero image */
-.hero-image {
-    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: url(person-on-a-bridge-near-a-lake.jpg);
-    /* Set a specific height */
-    height: 50%;
-    /* Position and center the image to scale nicely on all screens */
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
-}
-
-/* Place text in the middle of the image */
-.hero-text {
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
+   .content {
+     max-width: 800px;
+     margin: auto;
 }
      h1{
         color:darkblue;
@@ -65,80 +43,11 @@ body {
          margin: auto;
          float: left;
 }
-.button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: darkgray;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-}
-ul {
-    list-style-type: none;
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-    width: 200px;
-    text-align: center;
-}
-/* Style the navbar */
-#navbar {
-    overflow: hidden;
-    background-color: #333;
-}
+     h2{
+        color:purple;
+        font:20px
+        font-family:"Courier New";
 
-    /* Navbar links */
-    #navbar a {
-        float: left;
-        display: block;
-        color: #f2f2f2;
-        text-align: center;
-        padding: 14px;
-        text-decoration: none;
-        display: block;
-        padding: 8px 16px;
-        color: Purple;
-        font: 40px;
-        font-family: "Courier New",monospace;
-        text-align: center;
-    }
-
-li a:hover {
-    background-color: gray;
-    color: black;
-}
-
-img {
-    display: block;
-    margin: auto;
-    text-align: center;
-}
-
-.button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: darkgray;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-}
-
-h2 {
-    color: purple;
-    font: 20px font-family:"Courier New";
-}
-
-textarea {
-    width: 50%;
-    height: 100px;
-    padding: 12px 20px;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    background-color: #f8f8f8;
-    resize: none;
 }
     div.gallery {
  position:center;
@@ -147,20 +56,6 @@ textarea {
   width: 250px;
   text align: center;
   display: inline-block;
-}
-div.polaroid {
-    width: 80%;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-img {
-    width: 100%
-}
-
-div.container {
-    text-align: center;
-    padding: 10px 20px;
 }
 
 div.gallery:hover {
@@ -177,4 +72,4 @@ div.desc {
   text-align: center;
 }
 #container { width: 800px; margin: 0 auto;
-}
+} 
