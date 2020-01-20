@@ -1,8 +1,8 @@
 body {
-    height: 80%;
+    //height: 100%;
     margin: auto;
-    width: 80%;
-    text-align: center;
+    width: 80%
+       text-align: center;
     float: unset;
     background-color: aliceblue;
 }
@@ -15,7 +15,7 @@ body {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
     background-image: url(person-on-a-bridge-near-a-lake.jpg);
     /* Set a specific height */
-    height: 50%;
+    //height: 50%;
     /* Position and center the image to scale nicely on all screens */
     background-position: center;
     background-repeat: no-repeat;
@@ -31,6 +31,28 @@ body {
     transform: translate(-50%, -50%);
     color: white;
 }
+* {
+    margin: 4px;
+    padding: 1px;
+}
+
+html {
+    background: url('../Images/boiling stones1.jpg') no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#page-wrap {
+    width: 200px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    -moz-box-shadow: 0 0 20px black;
+    -webkit-box-shadow: 0 0 20px black;
+    box-shadow: 0 0 20px black;
+}
       h1 {
     color: white;
     font-size: 56px;
@@ -38,13 +60,22 @@ body {
     font-family: "Courier New",monospace;
     text-align: center;
 }
-     h2{
-        color:darkblue;
-        font-size:48px;
-        font-weight:bold;
-        font-family:"Courier New",monospace;
-        text-align: center;
-     
+.flex-container {
+    display: flex;
+}
+
+    .flex-container > div {
+        margin: 10px;
+        padding: 20px;
+        font-size: 17px;
+    }
+
+h2 {
+    color: darkblue;
+    font-size: 48px;
+    font-weight: bold;
+    font-family: "Courier New",monospace;
+    text-align: center;
 }
     h3 {
     color: darkblue;
@@ -79,15 +110,7 @@ body {
          margin: auto;
          float: left;
 }
-.button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: darkgray;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-}
+
 ul {
     list-style-type: none;
     display: inline-block;
@@ -112,7 +135,6 @@ ul {
         text-decoration: none;
         display: block;
         padding: 8px 16px;
-        color: Purple;
         font: 40px;
         font-family: "Courier New",monospace;
         text-align: center;
@@ -137,11 +159,6 @@ img {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-}
-
-h2 {
-    color: purple;
-    font: 20px font-family:"Courier New";
 }
 
 textarea {

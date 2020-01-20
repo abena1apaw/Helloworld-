@@ -1,0 +1,107 @@
+body {
+    //height: 130%;
+    margin:auto;
+    width: 80%;
+  float: unset;
+background-color: aliceblue;
+}
+/* The hero image */
+.hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: url(person-on-a-bridge-near-a-lake.jpg);
+    /* Set a specific height */
+    //height: 20%;
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+    .content {
+     max-width: 800px;
+     margin: auto;
+}
+     h1{
+        color:darkblue;
+        font-size:48px;
+        font-weight:bold;
+        font-family:"Courier New",monospace;
+        text-align: center;
+	text-shadow: 2px 2px 4px #fff;
+     
+}
+      p{   
+       color: darkblue;
+        font:18px;
+       text-align: center;
+        font-family:"Arial";
+}
+   ul {
+       list-style-type: none;
+      display: inline-block;
+      margin: 0;
+      padding: 0;
+      width: 200px;
+      //text-align: center;
+}
+ol {
+    //background: aliceblue;
+    padding: 10px;
+}
+    ol li {
+        //background: #fff;
+        padding: 5px;
+        margin-left: 10px;
+    }
+  table th, td {
+  padding: 15px;
+  text-align: left;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+video {
+  width: 100%;
+  height: auto;
+}
+
+h2 {
+    color: purple;
+    font: 30px;
+    font-family: "Courier New",monospace;
+    font-weight: 700;
+}
+    div.gallery {
+ position:center;
+ margin: 5px;
+  border: 1px solid #ccc;
+  width: 250px;
+  text align: center;
+  display: inline-block;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+#container { width: 800px; margin: 0 auto;
+}
+
+div.polaroid {
+    //width: 50%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 10px;
+}

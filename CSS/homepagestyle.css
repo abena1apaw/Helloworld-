@@ -16,7 +16,7 @@ background-color: aliceblue;
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
     background-image: url(person-on-a-bridge-near-a-lake.jpg);
     /* Set a specific height */
-    height: 20%;
+    //height: 20%;
     /* Position and center the image to scale nicely on all screens */
     background-position: center;
     background-repeat: no-repeat;
@@ -32,17 +32,17 @@ background-color: aliceblue;
     transform: translate(-50%, -50%);
     color: white;
 }
-  
-     h1{
-        color: white;
-        font-size:48px;
-        font-weight: bold;
-        font-family:"Courier New",monospace;
-        text-align: center; 
+
+h1 {
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    font-family: "Courier New",monospace;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000;
 }
       p{ 
-        
-              color:darkblue;
+        color:darkblue;
         font:18px;
         font-family:"Arial";
 }
@@ -70,14 +70,13 @@ background-color: aliceblue;
        text-decoration: none;
      display: block;
      padding: 8px 16px;
-     color: Purple;
-	font:40px;
+     	font:40px;
         font-family:"Courier New",monospace;
         text-align: center; 
 }
 
   li  a:hover {
-       background-color: gray;
+       background-color: darkblue;
        color: black;
 }
      
@@ -101,5 +100,11 @@ background-color: aliceblue;
   border-radius: 4px;
   background-color: #f8f8f8;
   resize: none;
+}
+div.polaroid {
+    //width: 50%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 10px;
 }
 
